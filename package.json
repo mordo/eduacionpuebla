@@ -75,7 +75,6 @@
     }
   ],
   "cordovaPlatforms": [
-    "ios",
     "android"
   ]
 }
