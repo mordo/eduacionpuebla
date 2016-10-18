@@ -37525,7 +37525,7 @@ angular.module('mm.core')
     "wsservice" : "moodle_mobile_app",
     "wsextservice" : "local_mobile",
     "demo_sites": {},
-    "siteurl": "https://learn.moodle.net/",
-    "gcmpn": "learn-moodle-1159"
+    "siteurl": "http://conocer.pueblasep.com.mx/",
+    "gcmpn": "694767596569"
 }
 );
