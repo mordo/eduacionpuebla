@@ -37525,7 +37525,7 @@ angular.module('mm.core')
     "wsservice" : "moodle_mobile_app",
     "wsextservice" : "local_mobile",
     "demo_sites": {},
-    "siteurl": "http://conocer.pueblasep.com.mx/",
+    "siteurl": "demosep.savetechnology.com.mx/moodle30/",
     "gcmpn": "694767596569"
 }
 );
