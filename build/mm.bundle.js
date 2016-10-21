@@ -2987,7 +2987,7 @@ angular.module('ionic').directive('ionRadioFix', function() {
 angular.module('mm.core')
 .factory('$mmLang', ["$translate", "$translatePartialLoader", "$mmConfig", "$cordovaGlobalization", "$q", "mmCoreConfigConstants", function($translate, $translatePartialLoader, $mmConfig, $cordovaGlobalization, $q, mmCoreConfigConstants) {
     var self = {},
-        fallbackLanguage = 'en',
+        fallbackLanguage = 'es-mx',
         currentLanguage;
         self.registerLanguageFolder = function(path) {
         $translatePartialLoader.addPart(path);
@@ -3053,8 +3053,8 @@ angular.module('mm.core')
         urlTemplate: '{part}/{lang}.json'
     });
     $translatePartialLoaderProvider.addPart('build/lang');
-    $translateProvider.fallbackLanguage('en');
-    $translateProvider.preferredLanguage('en');
+    $translateProvider.fallbackLanguage('es-mx');
+    $translateProvider.preferredLanguage('es-mx');
 }])
 .run(["$ionicPlatform", "$translate", "$mmLang", function($ionicPlatform, $translate, $mmLang) {
     $ionicPlatform.ready(function() {
@@ -7121,7 +7121,7 @@ angular.module('mm.core')
             element = element[0];
             var defaultOptions = {
                     allowedContent: true,
-                    defaultLanguage: 'en',
+                    defaultLanguage: 'es-mx',
                     height: editorInitialHeight,
                     toolbarCanCollapse: true,
                     toolbarStartupExpanded: false,
