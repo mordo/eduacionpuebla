@@ -37517,6 +37517,7 @@ angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
     "app_id" : "net.moodle.learn",
+	"appname": "Moodle SEPP",
     "versioncode" : "3",
     "versionname" : "1.2",
     "cache_expiration_time" : 300000,
