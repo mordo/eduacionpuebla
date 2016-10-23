@@ -520,7 +520,7 @@
     "mm.question.questionmessage": "Pregunta {{$a}}: {{$b}}",
     "mm.question.unknown": "No se puede determinar el estatus",
     "mm.settings.about": "Acerca de",
-    "mm.settings.appname": "Moodle SEPP {{version}}",
+    "mm.settings.appname": "Conocer Puebla {{version}}",
     "mm.settings.appready": "App lista",
     "mm.settings.cacheexpirationtime": "Tiempo de caducidad del caché (mili segundos)",
     "mm.settings.cordovadevicemodel": "Modelo Dispositivo Cordova",
