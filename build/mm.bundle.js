@@ -37516,9 +37516,9 @@ angular.module('mm.addons.mod_quiz')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id" : "com.savetechnology.conocerpuebla",
-	"appname" : "Conocer Puebla",
-    "versioncode" : "2016",
+    "app_id" : "com.savetechnology.educacionpuebla",
+	"appname" : "Educación Puebla",
+    "versioncode" : "2017",
     "versionname" : "1.0",
     "cache_expiration_time" : 300000,
     "default_lang" : "es-mx",
@@ -37526,7 +37526,7 @@ angular.module('mm.core')
     "wsservice" : "moodle_mobile_app",
     "wsextservice" : "local_mobile",
     "demo_sites": {},
-    "siteurl": "conocer.pueblasep.com.mx",
+    "siteurl": "educacion.pueblasep.com.mx",
     "gcmpn": "694767596569"
 }
 );
