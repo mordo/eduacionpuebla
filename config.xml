@@ -2,13 +2,13 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.savetechnology.conocerpuebla"
-        versionCode = "2016"
-        version   = "1.1">
-    <name>Conocer Puebla</name>
+        id        = "com.savetechnology.educacionpuebla"
+        versionCode = "2017"
+        version   = "1.0">
+    <name>Educación Puebla</name>
 
     <description>
-        Conocer Puebla Mobile App official by Savetech
+        Educación Puebla Mobile App official by SaveTechnology
     </description>
 
     <author href="http://www.savetechnology.com.mx/" email="miguel.ramos@savetechnology.com.mx">
@@ -20,7 +20,7 @@
     </gap:config-file>
  
     <gap:platform name="ios" />
-     <gap:platform name="android" /> 
+    <gap:platform name="android" /> 
 
     <access origin="*" />
     <access origin="tel:*" launch-external="yes" />
